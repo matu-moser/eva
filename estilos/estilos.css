@@ -1,8 +1,69 @@
 *{
     margin: 0%;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 .encabezado{
+    padding-top: 20px;
+    padding-block-end: 20px;
     display: flex;
     justify-content: center;
+    margin: 0 10px;
+    background-color: rgba(230, 230, 223, 0.548);
+    border: 1px solid #dddddd9a;
+}
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+.buscador input{
+    cursor: pointer;
+    padding: 8px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    margin: 0 10px;
+    padding: 30px;
+    background-color: #d1dbdae8;
+}
+.botones button{
+    border-radius: 20px;
+    border: 1px solid #dddddd9a;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size:  20px;
+}
+.comidas{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 40px;
+}
+.comidas img{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.texto{
+    display: block;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+footer{
+    background-color: rgba(230, 230, 223, 0.548);
+        padding-top: 30px;
+    padding-block-end: 30px;
+}
+.iconos ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.iconos{
+    font-size:  30px;
 }
